@@ -1,0 +1,29 @@
+.h2 {
+	font-family:arial;
+	color: black;
+	font-size: 18px
+}
+
+.th {
+	height: 40px;
+	font-size: 14px;
+	text-align: left;
+}
+.body {
+	font: arial #555555
+}
+.main-footer{
+	font-size: 12px;
+}
+td:hover{
+	background-color: #feffdb;
+}
+.table-header{
+font-size: 18px;
+
+}
+
+#ol{
+	padding-top: 40px;
+
+}
