@@ -11,10 +11,13 @@ h2{
 	top-margin: 40px;
 }
 
-.th {
-	height: 40px;
+th:first-child,td:first-child{
+	font-weight: bold;
+	width: 100px}
+.th 	{
 	font-size: 14px;
 	text-align: left;
+	height: 40px;
 }
 .body {
 	font: arial #555555;
@@ -37,7 +40,4 @@ width: 100px;
 	padding-top: 40px;
 
 }
-.firstcol{
-	width: 100px;
-	font-style: bold;
-}
+
