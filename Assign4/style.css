@@ -1,0 +1,32 @@
+body {
+	font: 1.0em/1.3 ;
+	margin: o;
+	padding: 0;
+
+}
+
+nav{
+	margin: 1.5em 0;
+	text-align: right;
+}
+a{
+	width: 150px;
+	margin: 15px 0;
+	display: inline-block;
+
+}
+
+
+.box {
+	background-color: #c8c8c8;
+	
+}
+.box2{
+	background: lightgray;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	height: 500px;
+	width: 250px;
+
+}
