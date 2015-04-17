@@ -1,14 +1,14 @@
 .body {
-	font: 1.0em/1.3 sans-serif;
+	font: 1.0em/1.3 arial;
 	margin: 0;
 	padding: 0;
 
 }
 h2{
-	font-family:arial;
+	font-family: arial;
 	color: black;
 	font-size: 18px;
-	margin: 40px;
+	top-margin: 40px;
 }
 
 .th {
@@ -31,10 +31,13 @@ td:hover{
 font-size: 18px;
 width: 100px;
 
-
 }
 
 #ol{
 	padding-top: 40px;
 
+}
+.firstcol{
+	width: 100px;
+	font-style: bold;
 }
