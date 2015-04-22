@@ -1,0 +1,13 @@
+<style>
+.circle {
+  display: block;
+  margin: 0 15px;
+  width: 250px;
+  height: 250px;
+  background-color: lightcoral;
+  border-radius: 50%;
+}
+</style>
+.span{
+  text-decoration:bold;
+}
