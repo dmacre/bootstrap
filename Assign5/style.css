@@ -110,18 +110,19 @@ fieldset {
     height: 500px;
     width: 300px;
 }
-
 /*-----MEDIA QUERY--------*/
 
 @ media screen and(max-width: 480px) nav {
     width: 100px;
     margin-bottom: 10px;
 }
+
 nav ul {
     list-style: none;
     margin: 0 auto;
     padding: left 0;
 }
+
 nav ul li {
     text-align: center;
     margin: left 0 auto;
