@@ -24,49 +24,57 @@
 
     // 3. create array 4 names log second name to console
     var myArray = ["Vanessa", "Dan", "Steve", "Ricky"];
-
+    for (i = 0; i < myArray.lenth; i++); {
+        console.log(i)
+    }
     document.getElementById("button3").addEventListener("click", function() {
         console.log(myArray[1]);
     }, false);
 
 
-    //4.  create loop that logs 1-10 to console
-    for (i = 0; i < 5; i++i < 11; i++) {
-        text += "the number is" + i + "<br>"
-    }
-    while (i < 10) {
-        text + = "the number is" + i;
-        i++
-    }
+    //4.  create loop that logs 1-10 to console//var score = Math.floor(Math.random() * 10 + 1);
+    //console.log(score);
+
+
     document.getElementById("button4").addEventListener("click", function() {
-        console.log(myArray[i]);
+        for (i = 1; i < 11; i++) {
+            console.log(i);
+        }
     }, false);
 
     // 5.Loop thru name arrray logging each naem to console
-
+    //less than for loop
     var myArray = ["Vanessa", "Dan", "Steve", "Ricky"];
+    for (i = 0; i < myArray.lenth; i++); {
+        console.log(myArray[i]);
+    }
     document.getElementById("button5").addEventListener("click", function() {
         console.log(myArray);
-    });
+    }, false);
 
     //6. loop thru name array log each name to console that starts w "p"   
-    //Hint - review substrings
-    var myArray = ["Vanessa", "Dan", "Steve", "Ricky"];
-    if ()
-        document.getElementById("button6").addEventListener("click", function() {
-                console.log(myArray[1]);
+    //Hint - review substrings 
 
-                //7. make the car honk
-                var car = {
-                    doors: 4;
-                    honk: function(); {
-                        console.log("honk");
+    var myArray = ["Vanessa", "Dan", "Steve", "Picky"];
+    document.getElementById("button6").addEventListener("click", function() {
+                for (i = 0; i < myArray.length; i++) {
+                    if (myArray[i].substring(0, 1) === "P") {
+                        console.log(myArray[i])
                     }
-                }
-                car.honk();
-            }, False; document.getElementById("button7").addEventListener("click", function() {
-                    console.log(honk);
-                }
+
+
+              }  }, false);
+        
+        //7. make the car honk
+    var car = {
+        door: 4,
+        honk: function() {
+            console.log("honk");
+        }
+    };
+    document.getElementById("button7").addEventListener("click", function() {
+        car.honk();});
+    
     </script>
 </body>
 
