@@ -1,0 +1,78 @@
+.jumbotron {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+    background-image: url();
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-top: 25px;
+    color:white;
+    background-color: darkgray
+}
+
+sectiona{}
+
+sectionb {}
+
+sectionc {}
+
+sectiond {}
+
+sectione {}
+
+sectionf {}
+
+sectiong {}
+
+sectionh {}
+
+sectioni {}
+
+sectionj {}
+
+sectionk {}
+
+.containera{
+
+}
+.containerb{}
+.containerc{}
+.containerd{
+	background-color: darkgray;
+}
+.containere{
+	background-color: white;
+}
+.containerf{
+	background-color: darkgray;
+}
+.containerg{}
+.containerh{
+	background-color: darkgray;
+}
+.containeri{}
+.containerj{
+	background-color: white;
+}
+.containerk{
+	background-color: black; 
+}
+
+
+.hollowbox {
+    border: 10px
+}
+
+.style {
+    margin-left: 400px;
+}
+
+.background-image {
+    background: url(http://juliewight.com/wp-content/uploads/2013/12/high-resolution-backgrounds-free.jpg);
+    background-size: cover;
+}
