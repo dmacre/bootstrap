@@ -1,7 +1,12 @@
+.wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .jumbotron {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     font-family: sans-serif;
     margin-bottom: 0px;
@@ -9,13 +14,20 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 350px;
-    margin-top: 25px;
-    color:white;
+    height: 500px;
+    color: white;
     background-color: darkgray
 }
 
-sectiona{}
+.top {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
 
 sectionb {}
 
@@ -37,36 +49,82 @@ sectionj {}
 
 sectionk {}
 
-.containera{
+.containera {}
 
-}
-.containerb{}
-.containerc{}
-.containerd{
-	background-color: darkgray;
-}
-.containere{
-	background-color: white;
-}
-.containerf{
-	background-color: darkgray;
-}
-.containerg{}
-.containerh{
-	background-color: darkgray;
-}
-.containeri{}
-.containerj{
-	background-color: white;
-}
-.containerk{
-	background-color: black; 
+.containerb {
+	margin-left: 10px;
 }
 
-
-.hollowbox {
-    border: 10px
+.containerc {
+	padding-top: 50px;
+	padding-bottom: 40px;
+	margin-left: 10px;
 }
+
+.containerd {
+    background-color: #D8D8D8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+.containere {
+    background-color: white;
+}
+
+.containerf {
+	padding-top: 0px;
+	padding-bottom: 40px;
+    
+}
+
+.containerg {
+
+ background-color: #D8D8D8;
+ padding-top: 100px;
+ padding-bottom: 100px;
+
+}
+
+.containerh {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+.experience{
+
+	padding-left: 10px;
+	padding-bottom: 40px;
+
+}
+
+.containeri {}
+
+.containerj {
+    background-color: #D8D8D8;
+    font-size: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+#form {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 100px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 650px;
+	text-height: -150px;
+    background-color: #191919;
+    color: white;
+
+}
+
+
 
 .style {
     margin-left: 400px;
@@ -75,4 +133,25 @@ sectionk {}
 .background-image {
     background: url(http://juliewight.com/wp-content/uploads/2013/12/high-resolution-backgrounds-free.jpg);
     background-size: cover;
+}
+.laugh{
+	color:#DF3A01;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #000000;
+    color: white;
+    font-size: 13px;
+    margin-left: 0px;
+}
+
+.me{
+	text-align: center;
+
+}
+
+.bizphoto{
+	size: 10%;
 }
