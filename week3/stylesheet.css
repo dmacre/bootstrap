@@ -1,6 +1,6 @@
 .wrapper {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 .jumbotron {
@@ -29,68 +29,18 @@ ul {
     list-style-type: none;
 }
 
-sectionb {}
-
-sectionc {}
-
-sectiond {}
-
-sectione {}
-
-sectionf {}
-
-sectiong {}
-
-sectionh {}
-
-sectioni {}
-
-sectionj {}
-
-sectionk {}
-
-.containera {}
-
-.containerb {
-	margin-left: 10px;
-}
-
-.containerc {
+.stats{
 	padding-top: 50px;
-	padding-bottom: 40px;
-	margin-left: 10px;
+	padding-bottom: 50px;
+	background-color: #03a9f4;
 }
 
-.containerd {
-    background-color: #D8D8D8;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin-left: 10px;
-    margin-bottom: 40px;
+.mystatus{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #03a9f4;
 }
 
-.containere {
-    background-color: white;
-}
-
-.containerf {
-	padding-top: 0px;
-	padding-bottom: 40px;
-    
-}
-
-.containerg {
-
- background-color: #D8D8D8;
- padding-top: 100px;
- padding-bottom: 100px;
-
-}
-
-.containerh {
-    padding-top: 100px;
-    padding-bottom: 0px;
-}
 .experience{
 
 	padding-left: 10px;
@@ -98,36 +48,32 @@ sectionk {}
 
 }
 
-.containeri {}
-
-.containerj {
-    background-color: #D8D8D8;
-    font-size: 20px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin-left: 10px;
-    padding-left: 10px;
+.customers{
+	background-color: #03a9f4;
+	height: 200px;
+	padding-top: 80px;
 }
+
+
 
 #form {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	margin-top: 100px;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+	
 	height: 650px;
-	text-height: -150px;
+	background-repeat: no-repeat;
+	
+	
     background-color: #191919;
     color: white;
 
 }
 
 
-
-.style {
-    margin-left: 400px;
+.contact{
+	height: 650px;
 }
 
 .background-image {
@@ -139,6 +85,7 @@ sectionk {}
 }
 
 .footer {
+	padding-left: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #000000;
@@ -147,11 +94,3 @@ sectionk {}
     margin-left: 0px;
 }
 
-.me{
-	text-align: center;
-
-}
-
-.bizphoto{
-	size: 10%;
-}
