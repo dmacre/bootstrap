@@ -14,9 +14,11 @@
          for (i = 1; i < 11; i++) {
              console.log(i);
          }
-         
+
      });
 
 
  });
-$( "li" ).each(function( index ) { console.log( index + ": " + $( this ).text() ); });
+ $("li").each(function(index) {
+     console.log(index + ": " + $(this).text());
+ });
