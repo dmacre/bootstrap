@@ -49,10 +49,11 @@ ul {
 }
 
 .mystatus {
-    padding-top: 55px;
+    padding-top: 100px;
     padding-bottom: 20px;
     background-color: #03a9f4;
-    height: 200px;
+    height: 300px;
+    font-size: 18px;
 }
 
 .experience {
@@ -62,8 +63,8 @@ ul {
 
 .customers {
     background-color: #03a9f4;
-    height: 200px;
-    padding-top: 70px;
+    height: 300px;
+    padding-top: 110px;
     font-style: Lora;
     font-size: 23px;
 }
@@ -104,6 +105,19 @@ ul {
     margin-left: 0px;
 }
 
+.cando{
+  font-size: 17px;
+
+}
+
+.btn:{
+  background-color: #1ABB9C;
+  font: white;
+}
+
+.button{
+  background-color: green;
+}
 (function() {
   var MutationObserver, Util, WeakMap, getComputedStyle, getComputedStyleRX,
     bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
