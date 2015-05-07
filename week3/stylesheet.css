@@ -110,14 +110,6 @@ ul {
 
 }
 
-.btn:{
-  background-color: #1ABB9C;
-  font: white;
-}
-
-.button{
-  background-color: green;
-}
 (function() {
   var MutationObserver, Util, WeakMap, getComputedStyle, getComputedStyleRX,
     bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
