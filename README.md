@@ -1,2 +1,2 @@
 # bootstrap
-Code School - miscellaneous projects in the first par of the course
+Code School - miscellaneous projects in the first few weeks of the course
